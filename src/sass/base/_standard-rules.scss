@@ -1,0 +1,36 @@
+a:visited,
+a:link {
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: calibri, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    @include buttons ($primary-light-color, $secondary-color, light)
+}
+
+h2 {
+    align-self: flex-start;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.7rem;
+    font-style: italic;
+    filter: drop-shadow(1px 1px $secondary-color);
+}
+
+i {
+    cursor: pointer;
+}
+  
+p {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    letter-spacing: .05em;
+}
+  

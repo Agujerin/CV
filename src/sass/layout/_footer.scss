@@ -1,0 +1,15 @@
+.footer {
+    @include flex-alignment(true,center);
+    padding: .6em;
+    margin-top: 5em;
+    
+    & img {
+        width: 2rem;
+        margin-bottom: .6em;
+    }
+    
+    & p {
+        text-align: center;
+        font-size: .8rem;
+    }
+}

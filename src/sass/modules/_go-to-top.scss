@@ -1,0 +1,17 @@
+.go-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 4rem;
+    font-size: 2rem;
+    opacity: .5;
+        
+    &:hover{
+        color: $secondary-color;
+    }
+}
+
+@media (max-width: 500px){
+    .go-top{
+        right: .5rem;
+    }   
+}

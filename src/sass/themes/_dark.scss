@@ -1,0 +1,8 @@
+.dark {
+    background-color: $dark-background;
+    color: #fff;
+    
+    & b {
+        color: $primary-dark-color;
+    }
+}

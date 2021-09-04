@@ -1,0 +1,93 @@
+.home-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+  width: 80%;
+  padding-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+    
+    & .presentation {
+      grid-column: 1/2; 
+    }
+    
+    & span {
+      line-height: 2.7rem;
+      text-align: right;
+      font-size: 2.3rem;
+      font-style: italic;
+      font-weight: bold;
+    }
+    
+    &.light span,
+    &.light a {
+      color: $primary-light-color;
+    }
+    
+    &.dark span,
+    &.dark a {
+      color: $primary-dark-color;
+    }
+    
+    & hr {
+      grid-column: 1/2;
+      margin: 1em 0;
+    }
+  
+    & .links {
+      display: flex;
+      justify-content: flex-end;
+      grid-column: 1/2;
+      
+      & a {
+        padding: 0 .3em;
+        font-size: 2rem;
+      
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+    
+    & .image {
+      width: 70%;
+      height: 400px;
+      grid-column: 2/3;
+      margin-left: auto;
+      margin-right: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position-y: center;
+      transform: $skew;
+    }
+    
+    &.light .image {
+      background-image: url('./img/laptop-light.png');
+    }
+    
+    &.dark .image {
+      background-image: url('./img/laptop.png');
+    }
+    
+    & .declaration {
+      grid-column: 1/3;
+      margin-top: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-section {
+      @include flex-alignment(true,center,90%);
+      padding-top: 1rem;
+      
+      & .image {
+        width: 100%;
+        height: 200px;
+        transform: none;
+        background-size: contain;
+      }
+    }
+ 
+}

@@ -1,0 +1,9 @@
+.light {
+    background-color: $light-background;
+    color: #000;
+    
+    & b {
+        color: $primary-light-color;
+    }
+}
+

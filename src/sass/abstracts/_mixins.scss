@@ -1,0 +1,36 @@
+@mixin flex-alignment ($direction, $justify, $width: 100%){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    width: $width;
+    
+    @if($direction){
+        flex-direction: column;
+    }
+}
+
+@mixin buttons ($bg-color, $hover-bg-color, $box-shadow){
+    width: fit-content;
+    min-width: 7.5rem;
+    align-items: center;
+    padding: .1em .4em;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    border-style: none;
+    background-color: $bg-color;
+    transform: $skew;
+    cursor: pointer;
+    
+    @if ($box-shadow == "dark"){
+        box-shadow: 3px 3px #fff;
+    } @else {
+        box-shadow: 3px 3px #000;
+    }
+    
+    &:hover {
+        background-color: $hover-bg-color;
+        transition: background-color .3s ease-in-out;
+    }
+}

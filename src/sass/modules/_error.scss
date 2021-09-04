@@ -1,0 +1,14 @@
+.error404 {
+    width: 80%;
+    margin: 3em auto;
+    text-align: center;
+    
+    & i {
+        margin-bottom: .3em;
+        font-size: 5rem;
+    }
+    
+    & h3 {
+        font-size: 2rem;
+    }
+}
