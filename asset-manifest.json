@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.js": "/CV/static/js/main.7ca201ba.chunk.js",
+    "main.js.map": "/CV/static/js/main.7ca201ba.chunk.js.map",
+    "runtime-main.js": "/CV/static/js/runtime-main.6d9bb43e.js",
+    "runtime-main.js.map": "/CV/static/js/runtime-main.6d9bb43e.js.map",
+    "static/js/2.6230d502.chunk.js": "/CV/static/js/2.6230d502.chunk.js",
+    "static/js/2.6230d502.chunk.js.map": "/CV/static/js/2.6230d502.chunk.js.map",
+    "static/js/3.cec1d6d6.chunk.js": "/CV/static/js/3.cec1d6d6.chunk.js",
+    "static/js/3.cec1d6d6.chunk.js.map": "/CV/static/js/3.cec1d6d6.chunk.js.map",
+    "index.html": "/CV/index.html",
+    "static/js/2.6230d502.chunk.js.LICENSE.txt": "/CV/static/js/2.6230d502.chunk.js.LICENSE.txt",
+    "static/media/ARM.6efdac6a.png": "/CV/static/media/ARM.6efdac6a.png",
+    "static/media/caricias.03555e72.png": "/CV/static/media/caricias.03555e72.png",
+    "static/media/caricias2.075824d8.png": "/CV/static/media/caricias2.075824d8.png",
+    "static/media/estenometro.60c0fd75.png": "/CV/static/media/estenometro.60c0fd75.png",
+    "static/media/estenometro2.1219646b.png": "/CV/static/media/estenometro2.1219646b.png",
+    "static/media/favicon-animado.487fa2ca.ico": "/CV/static/media/favicon-animado.487fa2ca.ico",
+    "static/media/linkedin.d415d4e2.png": "/CV/static/media/linkedin.d415d4e2.png",
+    "static/media/pptls.4f5a5391.png": "/CV/static/media/pptls.4f5a5391.png",
+    "static/media/pptls1.a5335ea6.png": "/CV/static/media/pptls1.a5335ea6.png",
+    "static/media/rickandmorty.c2f3fb0e.png": "/CV/static/media/rickandmorty.c2f3fb0e.png",
+    "static/media/rickandmorty2.2f9f4984.png": "/CV/static/media/rickandmorty2.2f9f4984.png",
+    "static/media/simon.753e9bb3.png": "/CV/static/media/simon.753e9bb3.png",
+    "static/media/simon2.38cfb214.png": "/CV/static/media/simon2.38cfb214.png",
+    "static/media/todolist.13d4bc14.png": "/CV/static/media/todolist.13d4bc14.png",
+    "static/media/todolist1.bcd60368.png": "/CV/static/media/todolist1.bcd60368.png",
+    "static/media/zelda.22130ade.png": "/CV/static/media/zelda.22130ade.png",
+    "static/media/zelda2.817a396c.png": "/CV/static/media/zelda2.817a396c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d9bb43e.js",
+    "static/js/2.6230d502.chunk.js",
+    "static/js/main.7ca201ba.chunk.js"
+  ]
+}
